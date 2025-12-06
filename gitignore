@@ -1,0 +1,33 @@
+# IDE and OS artifacts
+#####################
+.DS_Store           # macOS system file
+*.swp               # Vim swap files
+Thumbs.db           # Windows thumbnail cache
+
+# Python environment artifacts
+##############################
+__pycache__/
+*.pyc
+*.pyd
+*.so
+.env                # Local environment variables file (security)
+
+# Virtual Environment
+#####################
+# Crucial for your project! This stops Git from tracking the contents of your .venv
+.venv/
+venv/
+env/
+
+# Data and Logs
+###############
+*.log
+*.sqlite
+# If you download large datasets or model files
+data/
+datasets/
+models/
+
+# Jupyter/IPython Notebook artifacts
+####################################
+.ipynb_checkpoints  # Checkpoints created by Jupyter
