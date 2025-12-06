@@ -4,6 +4,9 @@
 *.swp               # Vim swap files
 Thumbs.db           # Windows thumbnail cache
 
+
+.env
+
 # Python environment artifacts
 ##############################
 __pycache__/
